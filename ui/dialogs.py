@@ -76,6 +76,11 @@ class ThemedMessageBox(QDialog):
         dlg.exec()
     
     @staticmethod
+    def show_critical(parent, title, message):
+        dlg = ThemedMessageBox(parent, title, message, "error", "ok")
+        dlg.exec()
+    
+    @staticmethod
     def show_question(parent, title, message):
         dlg = ThemedMessageBox(parent, title, message, "question", "yesno")
         return dlg.exec() == QDialog.Accepted

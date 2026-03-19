@@ -20,8 +20,8 @@ exported_proxies.txt
 build/
 dist/
 *.spec
-*.exe
-*.zip
+/*.exe
+/*.zip
 
 # Ignore OS files
 .DS_Store
