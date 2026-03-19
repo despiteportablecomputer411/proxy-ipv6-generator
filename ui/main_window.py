@@ -1153,9 +1153,10 @@ class MainWindow(QMainWindow):
             try:
                 with open(old_proxies_file, "r") as f:
                     old_list = json.load(f)
-                # Giữ lại proxy cũ, tối đa bằng count
+                # Giữ lại proxy cũ, tối đa bằng count, nhưng gán lại port theo start_port mới
                 kept = old_list[:count]
-                for p in kept:
+                for idx, p in enumerate(kept):
+                    p['port'] = start_port + idx  # Re-assign port from UI
                     ips_to_add.append(p['out_ip'])
                     self.active_ips.append({"ip": p['out_ip'], "interface": iface})
                     proxy_list.append(p)

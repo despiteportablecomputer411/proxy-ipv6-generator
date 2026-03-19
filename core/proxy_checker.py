@@ -46,7 +46,7 @@ def check_one_proxy(port, use_auth=False, user="", pwd=""):
         except Exception:
             continue
     
-    return True  # Port mở nhưng HTTP fail → vẫn coi là sống
+    return False  # Port open but no internet access → proxy is dead
 
 def count_connections_sync(ports):
     """Đếm kết nối TCP của psutil cho list port, trả về dictionary."""

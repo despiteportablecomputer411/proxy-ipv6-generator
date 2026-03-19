@@ -12,20 +12,20 @@ def main():
     # For simplicity, we just ask on launch if not saved in a config yet.
     # We can use QSettings or a config file. We'll use a simple marker file for now.
     config_file = "app_config.json"
-    lang = "en"
+    lang = "vi"
     
     import json
     if os.path.exists(config_file):
         try:
             with open(config_file, "r") as f:
                 cfg = json.load(f)
-                lang = cfg.get("language", "en")
+                lang = cfg.get("language", "vi")
         except:
             pass
     else:
         # Default to English on first run silently
         with open(config_file, "w") as f:
-            json.dump({"language": "en"}, f)
+            json.dump({"language": "vi"}, f)
 
     i18n.set_language(lang)
     

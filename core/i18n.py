@@ -8,7 +8,7 @@ class I18nManager(QObject):
     def __init__(self):
         super().__init__()
         self.locales = {}
-        self.current_lang = "en" # default to English
+        self.current_lang = "vi" # default to Vietnamese
         self.load_locales()
 
     def load_locales(self):
